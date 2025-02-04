@@ -1,15 +1,15 @@
 const INFO = {
 	main: {
-		title: "Reactfolio by truethari",
-		name: "Tharindu N.",
-		email: "mail@tharindu.dev",
+		title: "Portfolio Rauli Mäkinen",
+		name: "Rauli Mäkinen",
+		email: "rauli.a.makinen@tuni.fi",
 		logo: "../logo.png",
 	},
 
 	socials: {
 		twitter: "https://twitter.com/",
-		github: "https://github.com/",
-		linkedin: "https://linkedin.com/",
+		github: "https://github.com/Raulimakinen",
+		linkedin: "https://www.linkedin.com/in/rauli-m%C3%A4kinen-100958270/",
 		instagram: "https://instagram.com/",
 		stackoverflow: "https://stackoverflow.com/",
 		facebook: "https://facebook.com/",

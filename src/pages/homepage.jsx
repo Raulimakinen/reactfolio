@@ -116,7 +116,7 @@ const Homepage = () => {
 						<div className="homepage-socials">
 							<a
 								href={INFO.socials.twitter}
-								target="_blank"
+								target="https://www.linkedin.com/in/rauli-m%C3%A4kinen-100958270/"
 								rel="noreferrer"
 							>
 								<FontAwesomeIcon
@@ -126,7 +126,7 @@ const Homepage = () => {
 							</a>
 							<a
 								href={INFO.socials.github}
-								target="_blank"
+								target="https://github.com/Raulimakinen"
 								rel="noreferrer"
 							>
 								<FontAwesomeIcon
@@ -146,7 +146,7 @@ const Homepage = () => {
 							</a>
 							<a
 								href={INFO.socials.instagram}
-								target="_blank"
+								target="https://www.instagram.com/rauliantero/"
 								rel="noreferrer"
 							>
 								<FontAwesomeIcon
@@ -156,7 +156,7 @@ const Homepage = () => {
 							</a>
 							<a
 								href={`mailto:${INFO.main.email}`}
-								target="_blank"
+								target="rauli.a.makinen@tuni.fi"
 								rel="noreferrer"
 							>
 								<FontAwesomeIcon
