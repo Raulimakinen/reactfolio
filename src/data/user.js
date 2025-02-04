@@ -24,7 +24,7 @@ const INFO = {
 	about: {
 		title: "I’m Rauli. I live in Tampere Finland, where I design whatever comes to my mind.",
 		description:
-			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
+			"Olen alaa vaihtava luova ajattelija, opiskelen TAMK:issa kolmatta vuotta. Ratkon mielelläni ongelmia, rakastan oppimista ja pyrin alituiseen kehittymiseen. Jaan rohkeasti osaamistani, ja pyrin myös kehittämään ympäröivää yhteisöä. Hyvä ryhmähenki, yhteiset tavoitteet ja selkeä avoin kommunikaatio ovat menestyksen avaimia. En pelkää hypätä tuntemattomampaankaan tilanteeseen, sillä panostan aina tekemiseeni ja osaamiseeni tilanteen vaatiessa, ja kehityn vahvan reflektion avulla. Olen löytänyt intohimoni sovelluskehityksestä ja koodauksen parista, ja toivonkin että löydän inspiroivan yhteisön, joka tarjoaa minulle kehittäviä haasteita ja uusia pitkäaikaisia mahdollisuuksia.",
 	},
 
 	articles: {
@@ -38,9 +38,9 @@ const INFO = {
 			title: "Dreamloop",
 			description:
 				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+			logo: "https://dreamloop.net/wp-content/uploads/2021/04/cropped-Dreamloop_Logo_Overlayed_ForDarkBG_Inverted.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://www.dreamloop.net/",
 		},
 
 		{
@@ -58,7 +58,7 @@ const INFO = {
 				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://www.instagram.com/vetokerho/",
 		},
 
 		{
