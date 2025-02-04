@@ -16,13 +16,13 @@ const INFO = {
 	},
 
 	homepage: {
-		title: "Front-end and mobile developer, overthinker and a helping hand.",
+		title: "Front-end and mobile app developer, overthinker and a helping hand.",
 		description:
-			"I tend to overthink, atm im just trying to make this page work though...",
+			"I tend to overthink, atm im just trying to make this page work though... Im going to tell about myself later on and lorem ipsum and stuff...",
 	},
 
 	about: {
-		title: "I’m Tharindu N. I live in Sri Lanka, where I design the future.",
+		title: "I’m Rauli. I live in Tampere Finland, where I design whatever comes to my mind.",
 		description:
 			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
 	},
@@ -35,7 +35,7 @@ const INFO = {
 
 	projects: [
 		{
-			title: "Project 1",
+			title: "Dreamloop",
 			description:
 				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
@@ -44,7 +44,7 @@ const INFO = {
 		},
 
 		{
-			title: "Project 2",
+			title: "Viestintä",
 			description:
 				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
@@ -53,7 +53,7 @@ const INFO = {
 		},
 
 		{
-			title: "Project 3",
+			title: "VETO-kerho",
 			description:
 				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
@@ -62,7 +62,7 @@ const INFO = {
 		},
 
 		{
-			title: "Project 4",
+			title: "Project Expo",
 			description:
 				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
@@ -71,7 +71,7 @@ const INFO = {
 		},
 
 		{
-			title: "Project 5",
+			title: "Tutkintoa kehittävät toimet",
 			description:
 				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
