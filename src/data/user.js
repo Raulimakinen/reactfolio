@@ -38,7 +38,7 @@ const INFO = {
 			title: "Dreamloop",
 			description:
 				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://dreamloop.net/wp-content/uploads/2021/04/cropped-Dreamloop_Logo_Overlayed_ForDarkBG_Inverted.png",
+			logo: "https://www.getautismactive.com/wp-content/uploads/2021/01/Test-Logo-Circle-black-transparent.png",
 			linkText: "View Project",
 			link: "https://www.dreamloop.net/",
 		},
