@@ -18,14 +18,22 @@ const INFO = {
 	homepage: {
 		title: "Front-end and mobile app developer, overthinker and a helping hand.",
 		description:
-			"I tend to overthink, atm im just trying to make this page work though... Im going to tell about myself later on and lorem ipsum and stuff...",
+			"Olen alaa vaihtava luova ajattelija, opiskelen TAMK:issa kolmatta vuotta. Ratkon mielelläni ongelmia, rakastan oppimista ja pyrin alituiseen kehittymiseen. Jaan rohkeasti osaamistani, ja pyrin myös kehittämään ympäröivää yhteisöä. Hyvä ryhmähenki, yhteiset tavoitteet ja selkeä avoin kommunikaatio ovat menestyksen avaimia. En pelkää hypätä tuntemattomampaankaan tilanteeseen, sillä panostan aina tekemiseeni ja osaamiseeni tilanteen vaatiessa, ja kehityn vahvan reflektion avulla. Olen löytänyt intohimoni sovelluskehityksestä ja koodauksen parista, ja toivonkin että löydän inspiroivan yhteisön, joka tarjoaa minulle kehittäviä haasteita ja uusia pitkäaikaisia mahdollisuuksia.",
 	},
 
 	about: {
-		title: "I’m Rauli. I live in Tampere Finland, where I design whatever comes to my mind.",
-		description:
-			"Olen alaa vaihtava luova ajattelija, opiskelen TAMK:issa kolmatta vuotta. Ratkon mielelläni ongelmia, rakastan oppimista ja pyrin alituiseen kehittymiseen. Jaan rohkeasti osaamistani, ja pyrin myös kehittämään ympäröivää yhteisöä. Hyvä ryhmähenki, yhteiset tavoitteet ja selkeä avoin kommunikaatio ovat menestyksen avaimia. En pelkää hypätä tuntemattomampaankaan tilanteeseen, sillä panostan aina tekemiseeni ja osaamiseeni tilanteen vaatiessa, ja kehityn vahvan reflektion avulla. Olen löytänyt intohimoni sovelluskehityksestä ja koodauksen parista, ja toivonkin että löydän inspiroivan yhteisön, joka tarjoaa minulle kehittäviä haasteita ja uusia pitkäaikaisia mahdollisuuksia.",
-	},
+    title: "I’m Rauli. I live in Tampere Finland, where I design whatever comes to my mind.",
+    description:
+        "Olen alaa vaihtava luova ajattelija, opiskelen TAMK:issa kolmatta vuotta. Ratkon mielelläni ongelmia, rakastan oppimista ja pyrin alituiseen kehittymiseen. Jaan rohkeasti osaamistani, ja pyrin myös kehittämään ympäröivää yhteisöä. Hyvä ryhmähenki, yhteiset tavoitteet ja selkeä avoin kommunikaatio ovat menestyksen avaimia. En pelkää hypätä tuntemattomampaankaan tilanteeseen, sillä panostan aina tekemiseeni ja osaamiseeni tilanteen vaatiessa, ja kehityn vahvan reflektion avulla. Olen löytänyt intohimoni sovelluskehityksestä ja koodauksen parista, ja toivonkin että löydän inspiroivan yhteisön, joka tarjoaa minulle kehittäviä haasteita ja uusia pitkäaikaisia mahdollisuuksia.",
+    skills: [
+        "Ohjelmointi (JavaScript, Python, React, Node.js)",
+        "Projektinhallinta ja ketterät menetelmät",
+        "UX/UI-suunnittelu ja käyttäjäkeskeinen ajattelu",
+        "Verkostotyö ja yhteisön kehittäminen",
+        "Versiohallinta (Git, GitHub)",
+        "Tapahtumasuunnittelu ja viestintä"
+    ]
+},
 
 	articles: {
 		title: "I'm passionate about pushing the boundaries of what's possible and inspiring the next generation of innovators.",
@@ -37,16 +45,16 @@ const INFO = {
 		{
 			title: "Dreamloop",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+				"Loimme Pythonilla usean fromaatin konversio-ohjelma, jota käytetään graafisen käyttöliittymän kautta. Projektin aikana opin ohjelmistoarkkitehtuurista, projektisuunnittelusta, GIT-versiohallinnasta ja IT-projektin aikataulutuksesta sekä asiakastyöstä. Tärkeimpiä käytännön oppeja esim. luokkapohjainen ohjelmointi, muutoskyvykkyys vaihtaessa roolia.",
 			logo: "https://www.getautismactive.com/wp-content/uploads/2021/01/Test-Logo-Circle-black-transparent.png",
-			linkText: "View Project",
+			linkText: "Github",
 			link: "https://www.dreamloop.net/",
 		},
 
 		{
 			title: "Viestintä",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+				"Kehitimme tutkintomme viestintää ja seurantatyökaluja. (Työajanseuranta, läsnäolot, tehtävät) Suunnittelimme Teams rakenteen ja valikoimme digityökalut opiskelijoiden ja ohjaajien tarpeen mukaisesti. Vuoden lopuksi raportit ja datan visualisointi työajoista. Suunnittelin ja pidin useita esityksiä, ja koulutusluontoisia demonstraatioita. ",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
 			linkText: "View Project",
 			link: "https://github.com",
@@ -55,25 +63,25 @@ const INFO = {
 		{
 			title: "VETO-kerho",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
-			linkText: "View Project",
+				"Toimin hallitustehtävissä 2 vuotta, verkostovastaavan roolissa. Rooli oli täysin uusi, joten pyrin kehittämään sitä. Pyrin toteuttamaan verkostosuunnittelua, miten rakennetaan kestäviä yhteistöitä ja ylläpidetään niitä. Etsin ja ylläpidin digitaalisia työkaluja, tutkin paljon pienyhdistyksien toimintaa ja edistin säännönmukaista toimintaa. Avustin myös tapahtumien suunnittelussa ja toteutuksessa.",
+			logo: "https://ugc.production.linktr.ee/cf051b0e-201c-4b63-a534-272d526e7105_VETO-kerhon-logo--FINAL-.png?io=true&size=avatar-v3_0",
+			linkText: "VETO-kerhon instagram",
 			link: "https://www.instagram.com/vetokerho/",
 		},
 
 		{
 			title: "Project Expo",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+				"Verkostoitumistapahtuma jossa toimin projektipäällikkönä.  Tehtävänä oli opiskelijoiden sitouttaminen maakuntien toimeksiantajiin. Tapahtuma poiki n. 10 projektitiimiä, palautteet toimeksiantajilta hyvät. Oppia tapahtumajärjestämisestä, myynnistä, projektikonseptin luomisesta. ",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://vetoblogi.webnode.page/l/virtain-kaupunki/",
 		},
 
 		{
 			title: "Tutkintoa kehittävät toimet",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+				"Olen osallistunut useassa käänteessä tutkinnon kehitystoimiin kuten: Projektipäivien konseptointi ja kehittäminen järjestelmälliseksi tapahtumaksi, Läpinäkyvyyden lisääminen opiskelijoiden tuotoksissa, Projekteissa vierailu pienemmällä roolilla",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
 			link: "https://github.com",

@@ -40,15 +40,20 @@ const About = () => {
 
 					<div className="about-container">
 						<div className="about-main">
-							<div className="about-right-side">
-								<div className="title about-title">
-									{INFO.about.title}
-								</div>
+    <div className="about-right-side">
+        <div className="title about-title">
+            {INFO.about.title}
+        </div>
 
-								<div className="subtitle about-subtitle">
-									{INFO.about.description}
-								</div>
-							</div>
+        <div className="subtitle about-subtitle">
+            {INFO.about.description}
+            <ul>
+                {INFO.about.skills.map((skill, index) => (
+                    <li key={index}>{skill}</li>
+                ))}
+            </ul>
+        </div>
+    </div>
 
 							<div className="about-left-side">
 								<div className="about-image-container">
