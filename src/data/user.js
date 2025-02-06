@@ -73,7 +73,7 @@ const INFO = {
 			title: "Project Expo",
 			description:
 				"Verkostoitumistapahtuma jossa toimin projektipäällikkönä.  Tehtävänä oli opiskelijoiden sitouttaminen maakuntien toimeksiantajiin. Tapahtuma poiki n. 10 projektitiimiä, palautteet toimeksiantajilta hyvät. Oppia tapahtumajärjestämisestä, myynnistä, projektikonseptin luomisesta. ",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+			logo: "https://www.reynolds-pens.com/wp-content/uploads/2021/07/Logo-Expo.png",
 			linkText: "View Project",
 			link: "https://vetoblogi.webnode.page/l/virtain-kaupunki/",
 		},
