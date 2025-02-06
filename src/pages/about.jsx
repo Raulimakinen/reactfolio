@@ -47,6 +47,12 @@ const About = () => {
 
         <div className="subtitle about-subtitle">
             {INFO.about.description}
+			<br/>
+			<br/>
+			{INFO.about.description1}
+			<br/>
+			<br/>
+			 {INFO.about.description2}
             <ul>
                 {INFO.about.skills.map((skill, index) => (
                     <li key={index}>{skill}</li>

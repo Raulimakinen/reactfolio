@@ -24,7 +24,12 @@ const INFO = {
 	about: {
     title: "I’m Rauli. I live in Tampere Finland, where I design whatever comes to my mind.",
     description:
-        "Olen alaa vaihtava luova ajattelija, opiskelen TAMK:issa kolmatta vuotta. Ratkon mielelläni ongelmia, rakastan oppimista ja pyrin alituiseen kehittymiseen. Jaan rohkeasti osaamistani, ja pyrin myös kehittämään ympäröivää yhteisöä. Hyvä ryhmähenki, yhteiset tavoitteet ja selkeä avoin kommunikaatio ovat menestyksen avaimia. En pelkää hypätä tuntemattomampaankaan tilanteeseen, sillä panostan aina tekemiseeni ja osaamiseeni tilanteen vaatiessa, ja kehityn vahvan reflektion avulla. Olen löytänyt intohimoni sovelluskehityksestä ja koodauksen parista, ja toivonkin että löydän inspiroivan yhteisön, joka tarjoaa minulle kehittäviä haasteita ja uusia pitkäaikaisia mahdollisuuksia.",
+        "Opiskelen kolmatta vuotta VETO-tutkinnossa, joka on suomen ensimmäinen monialainen tutkinto-ohjelma. Tähän tutkintoon minut veti mukaan uutuudenviehätys, ja mahdollisuus olla mukana kehittämässä jotain täysin uutta. Muuttuva työelämä kaipaa monialaisuutta ja vahvoja kommunikaatiokykyjä, joihin tutkinnossamme paneudutaan." 
+	,
+	description1:" Opiskelen yhdessä medianomien, sosionomien ja liiketalouden tradenomien kanssa, itse valmistun it-tradenomiksi. Tämä poikkitieteellinen kokoonpano on antanut minulle valtavasti oppia nykypäivänä tarvittavista taidoista niin markkinoinnin, somen ja mediatuotannon kuin myös hyvinvoinnin näkökulmista. Opiskeluideni varrella olen huomannut reflektiokykyni vahvuuden, ja henkilökohtaisen kehittymisen haluni on kasvanut valtavasti. Tämän ohella pyrin jatkuvasti kehittämään ympäröivää yhteisöäni, ja kanssatyöskentelijöitäni, sekä pitämään yllä hyvää fiilistä ja motivaatiota."
+	,
+	description2: "Tässä hieman tietoa yleisistä vahvuuksistani:"
+,
     skills: [
         "Ohjelmointi (JavaScript, Python, React, Node.js)",
         "Projektinhallinta ja ketterät menetelmät",
@@ -79,10 +84,10 @@ const INFO = {
 		},
 
 		{
-			title: "Tutkintoa kehittävät toimet",
+			title: "Kehityskokemus",
 			description:
-				"Olen osallistunut useassa käänteessä tutkinnon kehitystoimiin kuten: Projektipäivien konseptointi ja kehittäminen järjestelmälliseksi tapahtumaksi, Läpinäkyvyyden lisääminen opiskelijoiden tuotoksissa, Projekteissa vierailu pienemmällä roolilla",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+				"Olen osallistunut useassa käänteessä tutkinnon kehitystoimiin kuten: Projektipäivien konseptointi ja kehittäminen järjestelmälliseksi tapahtumaksi, Läpinäkyvyyden lisääminen opiskelijoiden tuotoksissa, tutkinnon markkinointi ja esittely tapahtumissa sekä vieraspuhujien järjestäminen",
+			logo: "https://cdn-icons-png.flaticon.com/512/4277/4277182.png",
 			linkText: "View Project",
 			link: "https://github.com",
 		},

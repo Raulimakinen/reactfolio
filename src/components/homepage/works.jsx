@@ -15,7 +15,7 @@ const Works = () => {
 					<div className="works-body">
 						<div className="work">
 							<img
-								src="./facebook.png"
+								src="./soldem_logo.png"
 								alt="facebook"
 								className="work-image"
 							/>
@@ -28,7 +28,7 @@ const Works = () => {
 
 						<div className="work">
 							<img
-								src="./facebook.png"
+								src="./buffetsisu.png"
 								alt="facebook"
 								className="work-image"
 							/>

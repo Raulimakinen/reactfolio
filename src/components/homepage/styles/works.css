@@ -11,16 +11,17 @@
 }
 
 .work-image {
-	height: 30px;
-	width: 30px;
+	height: 45px;
+	width: 48px;
 	border-radius: 50%;
-	outline: 6px solid white;
+	outline: 6px solid rgb(255, 255, 255);
 	box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.25);
 }
 
 .work-title {
-	font-size: 15px;
+	font-size: 16px;
 	font-weight: 700;
+	
 	padding-left: 20px;
 	margin-top: -3px;
 	color: var(--secondary-color);
@@ -28,10 +29,10 @@
 
 .work-subtitle {
 	position: absolute;
-	font-size: 12px;
+	font-size: 15px;
 	color: var(--secondary-color);
 	padding-top: 22px;
-	padding-left: 50px;
+	padding-left: 70px;
 }
 
 .work-duration {
