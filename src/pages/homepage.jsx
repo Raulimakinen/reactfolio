@@ -114,16 +114,7 @@ const Homepage = () => {
 						</div>
 
 						<div className="homepage-socials">
-							<a
-								href={INFO.socials.twitter}
-								target="https://www.linkedin.com/in/rauli-m%C3%A4kinen-100958270/"
-								rel="noreferrer"
-							>
-								<FontAwesomeIcon
-									icon={faTwitter}
-									className="homepage-social-icon"
-								/>
-							</a>
+							
 							<a
 								href={INFO.socials.github}
 								target="https://github.com/Raulimakinen"

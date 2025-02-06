@@ -7,7 +7,7 @@ const INFO = {
 	},
 
 	socials: {
-		twitter: "https://twitter.com/",
+		
 		github: "https://github.com/Raulimakinen",
 		linkedin: "https://www.linkedin.com/in/rauli-m%C3%A4kinen-100958270/",
 		instagram: "https://www.instagram.com/rauliantero/",
