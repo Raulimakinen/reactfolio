@@ -91,6 +91,22 @@ const INFO = {
 			linkText: "View Project",
 			link: "https://github.com",
 		},
+		{
+			title: "Myyjän Kehitysohjelma",
+			description:
+				"Osallistuin Soldem Oy:llä myyjien kehitysohjelmaan, jossa rakennettiin myyntifilosofiaa, ja perehdyttiin myynnillisen asiakaspalvelun toimivuuteen, sekä sosiaalisen osaamisen jakamiseen. Ohjelman myötä sparrasin uusia myyjiä ja toimin mentorina.",
+			logo: "https://cdn-icons-png.flaticon.com/512/4277/4277182.png",
+			linkText: "View Project",
+			link: "https://github.com",
+		},
+			{
+			title: "Ravintolasivun sisällöntuotanto",
+			description:
+				"Yhteistyössä varsinaisen suunnittelijan kanssa, tuotin Sisu Buffet ravintolan sisällön ( Kuvat, tekstit, blogit, videot) sekä suunnittelin ulkoasun, viestinnän sävyn ja ydinviestin.",
+			logo: "https://cdn-icons-png.flaticon.com/512/4277/4277182.png",
+			linkText: "View Project",
+			link: "https://github.com",
+		},
 	],
 };
 
