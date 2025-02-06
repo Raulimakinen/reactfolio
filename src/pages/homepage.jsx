@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { Helmet } from "react-helmet";
-
 import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 import {
 	faTwitter,
 	faGithub,
@@ -131,8 +132,8 @@ const Homepage = () => {
 								rel="noreferrer"
 							>
 								<FontAwesomeIcon
-									icon={faStackOverflow}
-									className="homepage-social-icon"
+								icon={faLinkedin}
+								className="social-icon"
 								/>
 							</a>
 							<a

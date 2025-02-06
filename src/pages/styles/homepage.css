@@ -56,10 +56,11 @@
 	justify-content: left;
 	align-items: center;
 	padding-top: 30px;
+	gap: 15px;
 }
 
 .homepage-social-icon {
-	padding-right: 20px;
+	
 	font-size: 25px;
 	transition: color 0.2s ease-in-out;
 	color: var(--secondary-color);
