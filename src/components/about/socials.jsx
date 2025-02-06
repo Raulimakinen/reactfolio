@@ -40,7 +40,7 @@ const Socials = () => {
 					<div className="social-icon">
 						<FontAwesomeIcon
 							icon={faLinkedin}
-							className="social-icon"
+							className="homepage-social-icon linkedin"
 						/>
 					</div>
 					<div className="social-text">Connect in LinkedIn</div>

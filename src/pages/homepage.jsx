@@ -133,7 +133,7 @@ const Homepage = () => {
 							>
 								<FontAwesomeIcon
 								icon={faLinkedin}
-								className="social-icon"
+								className="homepage-social-icon" style={{ fontSize: "30px" }}
 								/>
 							</a>
 							<a
