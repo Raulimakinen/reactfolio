@@ -40,30 +40,26 @@ const Contact = () => {
 
 					<div className="contact-container">
 						<div className="title contact-title">
-							Let's talk! 
+							Ota yhteyttä! 
 						</div>
 
 						<div className="subtitle contact-subtitle">
 							Arvostan kiinnostustanne ottaa yhteyttä! Otan mielelläni
-							vastaan palautetta ja kehitysehdotuksia portfolioni tai urasuuntani suhteen. 
-							Laita rohkeasti viestiä, niin jutellaan lisää! Voit lähettää sähköpostia suoraan 
+							vastaan palautetta ja kehitysehdotuksia portfolioni tai projektieni suhteen. 
+							Laita rohkeasti viestiä, niin jutellaan lisää! Voit lähettää sähköpostia suoraan
 							&nbsp;{" "}
 							<a href={`mailto:${INFO.main.email}`}>
 								{INFO.main.email}
 							</a>
-							. Jos haluat varmistaa yhteydenottosi saapumisen, voit tietenkin myös laittaa viestiä 
-							somekanavien kautta {" "}
+							. Halutessasi voit tietenkin myös laittaa viestiä 
+							somekanavien kautta  {" "}
 							<a
 								href={INFO.socials.instagram}
-								target="_blank"
-								rel="noreferrer"
+							
 							>
 								{INFO.socials.instagram}
 							</a>
-							. I post regular updates and engage with my
-							followers there, so don't hesitate to reach out.
-							Thanks again for your interest, and I look forward
-							to hearing from you!
+							. 
 						</div>
 					</div>
 

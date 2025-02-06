@@ -10,7 +10,7 @@ const INFO = {
 		twitter: "https://twitter.com/",
 		github: "https://github.com/Raulimakinen",
 		linkedin: "https://www.linkedin.com/in/rauli-m%C3%A4kinen-100958270/",
-		instagram: "https://instagram.com/",
+		instagram: "https://www.instagram.com/rauliantero/",
 		stackoverflow: "https://stackoverflow.com/",
 		facebook: "https://facebook.com/",
 	},
@@ -18,7 +18,7 @@ const INFO = {
 	homepage: {
 		title: "Front-end and mobile app developer, overthinker and a helping hand.",
 		description:
-			"Olen alaa vaihtava luova ajattelija, opiskelen TAMK:issa kolmatta vuotta. Ratkon mielelläni ongelmia, rakastan oppimista ja pyrin alituiseen kehittymiseen. Jaan rohkeasti osaamistani, ja pyrin myös kehittämään ympäröivää yhteisöä. Hyvä ryhmähenki, yhteiset tavoitteet ja selkeä avoin kommunikaatio ovat menestyksen avaimia. En pelkää hypätä tuntemattomampaankaan tilanteeseen, sillä panostan aina tekemiseeni ja osaamiseeni tilanteen vaatiessa, ja kehityn vahvan reflektion avulla. Olen löytänyt intohimoni sovelluskehityksestä ja koodauksen parista, ja toivonkin että löydän inspiroivan yhteisön, joka tarjoaa minulle kehittäviä haasteita ja uusia pitkäaikaisia mahdollisuuksia.",
+			"Olen pian valmistuva alanvaihtaja Tampereelta. Opiskelen TAMK:issa verkostoissa oppimisen ja osaamisen tutkinto-ohjelmassa. Ratkon mielelläni ongelmia, rakastan oppimista ja pyrin alituiseen kehittymiseen. Jaan rohkeasti osaamistani, ja pyrin myös kehittämään ympäröivää yhteisöä. Hyvä ryhmähenki, yhteiset tavoitteet ja selkeä avoin kommunikaatio ovat menestyksen avaimia. En pelkää hypätä tuntemattomampaankaan tilanteeseen, sillä panostan aina tekemiseeni ja osaamiseeni tilanteen vaatiessa, ja kehityn vahvan reflektion avulla. Olen löytänyt intohimoni sovelluskehityksestä ja koodauksen parista, ja toivonkin että löydän inspiroivan yhteisön, joka tarjoaa minulle kehittäviä haasteita ja uusia pitkäaikaisia mahdollisuuksia.",
 	},
 
 	about: {
@@ -46,16 +46,16 @@ const INFO = {
 			title: "Dreamloop",
 			description:
 				"Loimme Pythonilla usean fromaatin konversio-ohjelma, jota käytetään graafisen käyttöliittymän kautta. Projektin aikana opin ohjelmistoarkkitehtuurista, projektisuunnittelusta, GIT-versiohallinnasta ja IT-projektin aikataulutuksesta sekä asiakastyöstä. Tärkeimpiä käytännön oppeja esim. luokkapohjainen ohjelmointi, muutoskyvykkyys vaihtaessa roolia.",
-			logo: "https://www.getautismactive.com/wp-content/uploads/2021/01/Test-Logo-Circle-black-transparent.png",
+			logo: "https://www.gematsu.com/wp-content/uploads/2022/04/Company-Logo_Dreamloop-Games-Inits.png",
 			linkText: "Github",
 			link: "https://www.dreamloop.net/",
 		},
 
 		{
-			title: "Viestintä",
+			title: "Internal Communication and Data Collection",
 			description:
 				"Kehitimme tutkintomme viestintää ja seurantatyökaluja. (Työajanseuranta, läsnäolot, tehtävät) Suunnittelimme Teams rakenteen ja valikoimme digityökalut opiskelijoiden ja ohjaajien tarpeen mukaisesti. Vuoden lopuksi raportit ja datan visualisointi työajoista. Suunnittelin ja pidin useita esityksiä, ja koulutusluontoisia demonstraatioita. ",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
+			logo: "https://i.ibb.co/LsrKNFw/lataus.jpg",
 			linkText: "View Project",
 			link: "https://github.com",
 		},
