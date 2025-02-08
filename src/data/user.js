@@ -28,15 +28,19 @@ const INFO = {
 	,
 	description1:" Opiskelen yhdessä medianomien, sosionomien ja liiketalouden tradenomien kanssa, itse valmistun it-tradenomiksi. Tämä poikkitieteellinen kokoonpano on antanut minulle valtavasti oppia nykypäivänä tarvittavista taidoista niin markkinoinnin, somen ja mediatuotannon kuin myös hyvinvoinnin näkökulmista. Opiskeluideni varrella olen huomannut reflektiokykyni vahvuuden, ja henkilökohtaisen kehittymisen haluni on kasvanut valtavasti. Tämän ohella pyrin jatkuvasti kehittämään ympäröivää yhteisöäni, ja kanssatyöskentelijöitäni, sekä pitämään yllä hyvää fiilistä ja motivaatiota."
 	,
-	description2: "Tässä hieman tietoa yleisistä vahvuuksistani:"
+	description2: "Tässä hieman tietoa yleisistä osaamisestani:"
 ,
     skills: [
-        "Ohjelmointi (JavaScript, Python, React, Node.js)",
+        "Ohjelmointi ( JavaScript, Python, React, SQL )",
+		"Web-tekniikat, HTML , CSS",
+		"MS Tools",
         "Projektinhallinta ja ketterät menetelmät",
         "UX/UI-suunnittelu ja käyttäjäkeskeinen ajattelu",
         "Verkostotyö ja yhteisön kehittäminen",
         "Versiohallinta (Git, GitHub)",
-        "Tapahtumasuunnittelu ja viestintä"
+        "Tapahtumasuunnittelu ja viestintä",
+		"Objektiivinen kehittävä ajattelu",
+		"Vahvat dialogi- ja tiimityötaidot",
     ]
 },
 
@@ -52,7 +56,7 @@ const INFO = {
 			description:
 				"Loimme Pythonilla usean fromaatin konversio-ohjelma, jota käytetään graafisen käyttöliittymän kautta. Projektin aikana opin ohjelmistoarkkitehtuurista, projektisuunnittelusta, GIT-versiohallinnasta ja IT-projektin aikataulutuksesta sekä asiakastyöstä. Tärkeimpiä käytännön oppeja esim. luokkapohjainen ohjelmointi, muutoskyvykkyys vaihtaessa roolia.",
 			logo: "https://www.gematsu.com/wp-content/uploads/2022/04/Company-Logo_Dreamloop-Games-Inits.png",
-			linkText: "Github",
+			linkText: "Dreamloop",
 			link: "https://www.dreamloop.net/",
 		},
 
@@ -61,8 +65,8 @@ const INFO = {
 			description:
 				"Kehitimme tutkintomme viestintää ja seurantatyökaluja. (Työajanseuranta, läsnäolot, tehtävät) Suunnittelimme Teams rakenteen ja valikoimme digityökalut opiskelijoiden ja ohjaajien tarpeen mukaisesti. Vuoden lopuksi raportit ja datan visualisointi työajoista. Suunnittelin ja pidin useita esityksiä, ja koulutusluontoisia demonstraatioita. ",
 			logo: "https://i.ibb.co/LsrKNFw/lataus.jpg",
-			linkText: "View Project",
-			link: "https://github.com",
+			linkText: "",
+			link: "",
 		},
 
 		{
@@ -79,7 +83,7 @@ const INFO = {
 			description:
 				"Verkostoitumistapahtuma jossa toimin projektipäällikkönä.  Tehtävänä oli opiskelijoiden sitouttaminen maakuntien toimeksiantajiin. Tapahtuma poiki n. 10 projektitiimiä, palautteet toimeksiantajilta hyvät. Oppia tapahtumajärjestämisestä, myynnistä, projektikonseptin luomisesta. ",
 			logo: "https://www.reynolds-pens.com/wp-content/uploads/2021/07/Logo-Expo.png",
-			linkText: "View Project",
+			linkText: "Blogipostaus projektista",
 			link: "https://vetoblogi.webnode.page/l/virtain-kaupunki/",
 		},
 
@@ -88,24 +92,24 @@ const INFO = {
 			description:
 				"Olen osallistunut useassa käänteessä tutkinnon kehitystoimiin kuten: Projektipäivien konseptointi ja kehittäminen järjestelmälliseksi tapahtumaksi, Läpinäkyvyyden lisääminen opiskelijoiden tuotoksissa, tutkinnon markkinointi ja esittely tapahtumissa sekä vieraspuhujien järjestäminen",
 			logo: "https://cdn-icons-png.flaticon.com/512/4277/4277182.png",
-			linkText: "View Project",
-			link: "https://github.com",
+			linkText: "",
+			link: "",
 		},
 		{
 			title: "Myyjän Kehitysohjelma",
 			description:
 				"Osallistuin Soldem Oy:llä myyjien kehitysohjelmaan, jossa rakennettiin myyntifilosofiaa, ja perehdyttiin myynnillisen asiakaspalvelun toimivuuteen, sekä sosiaalisen osaamisen jakamiseen. Ohjelman myötä sparrasin uusia myyjiä ja toimin mentorina.",
 			logo: "https://cdn-icons-png.flaticon.com/512/4277/4277182.png",
-			linkText: "View Project",
-			link: "https://github.com",
+			linkText: "",
+			link: "",
 		},
 			{
 			title: "Ravintolasivun sisällöntuotanto",
 			description:
 				"Yhteistyössä varsinaisen suunnittelijan kanssa, tuotin Sisu Buffet ravintolan sisällön ( Kuvat, tekstit, blogit, videot) sekä suunnittelin ulkoasun, viestinnän sävyn ja ydinviestin.",
 			logo: "https://cdn-icons-png.flaticon.com/512/4277/4277182.png",
-			linkText: "View Project",
-			link: "https://github.com",
+			linkText: "",
+			link: "",
 		},
 	],
 };

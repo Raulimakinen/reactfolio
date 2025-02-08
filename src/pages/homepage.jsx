@@ -169,13 +169,7 @@ const Homepage = () => {
 										className="homepage-article"
 										key={(index + 1).toString()}
 									>
-										<Article
-											key={(index + 1).toString()}
-											date={article().date}
-											title={article().title}
-											description={article().description}
-											link={"/article/" + (index + 1)}
-										/>
+										
 									</div>
 								))}
 							</div>

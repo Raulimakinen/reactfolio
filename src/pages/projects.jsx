@@ -39,7 +39,7 @@ const Projects = () => {
 					</div>
 					<div className="projects-container">
 						<div className="title projects-title">
-							Things I’ve made trying to leave my mark on my surroundings.
+							Mitä olen tehnyt, jättääkseni jälkeni ympäristööni.
 						</div>
 
 						<div className="subtitle projects-subtitle">
