@@ -16,13 +16,13 @@ const INFO = {
 	},
 
 	homepage: {
-		title: "Front-end and mobile app developer, overthinker and a helping hand.",
+		title: "Front-end ja mobiilikehittäjä, yliajattelija ja auttava käsi.",
 		description:
 			"Olen pian valmistuva alanvaihtaja Tampereelta. Opiskelen TAMK:issa verkostoissa oppimisen ja osaamisen tutkinto-ohjelmassa. Ratkon mielelläni ongelmia, rakastan oppimista ja pyrin alituiseen kehittymiseen. Jaan rohkeasti osaamistani, ja pyrin myös kehittämään ympäröivää yhteisöä. Hyvä ryhmähenki, yhteiset tavoitteet ja selkeä avoin kommunikaatio ovat menestyksen avaimia. En pelkää hypätä tuntemattomampaankaan tilanteeseen, sillä panostan aina tekemiseeni ja osaamiseeni tilanteen vaatiessa, ja kehityn vahvan reflektion avulla. Olen löytänyt intohimoni sovelluskehityksestä ja koodauksen parista, ja toivonkin että löydän inspiroivan yhteisön, joka tarjoaa minulle kehittäviä haasteita ja uusia pitkäaikaisia mahdollisuuksia.",
 	},
 
 	about: {
-    title: "I’m Rauli. I live in Tampere Finland, where I design whatever comes to my mind.",
+    title: "Moi, olen Rauli. Asun Orivedellä, ja täältä käsin suunnittelen ja toteutan luovuuttani, mitä erikoisimmilla tavoilla.",
     description:
         "Opiskelen kolmatta vuotta VETO-tutkinnossa, joka on suomen ensimmäinen monialainen tutkinto-ohjelma. Tähän tutkintoon minut veti mukaan uutuudenviehätys, ja mahdollisuus olla mukana kehittämässä jotain täysin uutta. Muuttuva työelämä kaipaa monialaisuutta ja vahvoja kommunikaatiokykyjä, joihin tutkinnossamme paneudutaan." 
 	,

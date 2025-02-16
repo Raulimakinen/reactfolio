@@ -43,8 +43,7 @@ const Projects = () => {
 						</div>
 
 						<div className="subtitle projects-subtitle">
-							Tänne tulee vielä lisätietoa projekteista kun jaksan niitä kirjoittaa. 
-							Projektien tekeminen on parasta kivaa ja tosi hubaa.
+							Tässä on hieman tietoa monialaisista projekteista, joissa olen ollut mukana. Olen täydentänyt tähän toistaiseksi kouluajaltani, sekä hieman aikaisemmilta vuosilta tärkeimmät esiin nousevat kohteet.
 						</div>
 
 						<div className="projects-list">
