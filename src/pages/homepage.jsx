@@ -2,7 +2,8 @@ import React, { useState, useEffect } from "react";
 import { Helmet } from "react-helmet";
 import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import LearningTimeline from "../data/timeline.jsx";
 
 import {
 	faTwitter,
@@ -22,7 +23,7 @@ import INFO from "../data/user";
 import SEO from "../data/seo";
 import myArticles from "../data/articles";
 
-import "./styles/homepage.css";
+import "./styles/homepage.css";;
 
 const Homepage = () => {
 	const [stayLogo, setStayLogo] = useState(false);
@@ -157,10 +158,12 @@ const Homepage = () => {
 								/>
 							</a>
 						</div>
+						
+						<section>
+  
+  						<LearningTimeline />
+						</section>
 
-						<div className="homepage-projects">
-							<AllProjects />
-						</div>
 
 						<div className="homepage-after-title">
 							<div className="homepage-articles">

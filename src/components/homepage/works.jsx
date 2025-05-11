@@ -10,34 +10,38 @@ const Works = () => {
 		<div className="works">
 			<Card
 				icon={faBriefcase}
-				title="Work"
+				title="Viimeaikaiset kuulumiset"
 				body={
 					<div className="works-body">
 						<div className="work">
 							<img
-								src="./soldem_logo.png"
+								src="./tamko.jpg"
 								alt="facebook"
 								className="work-image"
 							/>
-							<div className="work-title">Soldem</div>
+							<div className="work-title">Tamko - nettisivujen uudistusprojekti</div>
 							<div className="work-subtitle">
-								Myynnillinen asiakaspalvelu
+								Kevätlukukaudella 2025 aloitimme kolmen hengen tiimin voimin opiskelijakunta Tamko:n nettisivujen uudistusprojektin.
 							</div>
-							<div className="work-duration">2018 - 2020</div>
+							
 						</div>
 
 						<div className="work">
 							<img
-								src="./buffetsisu.png"
+								src="./fullstack.jpg"
 								alt="facebook"
 								className="work-image"
 							/>
 							
-							<div className="work-title">Sisu Buffet</div>
 							<div className="work-subtitle">
-								Yrittäjä
-							</div>
-							<div className="work-duration">2014 - 2017</div>
+  Tsekkaa <a
+    href="https://public-tests.onrender.com"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-link"
+  >täältä</a> keväällä 2025 aloittamani fullstack-projekti!
+</div>
+							<div className="work-duration"></div>
 						</div>
 					</div>
 				}

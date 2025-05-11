@@ -3,7 +3,7 @@ const INFO = {
 		title: "Portfolio Rauli Mäkinen",
 		name: "Rauli Mäkinen",
 		email: "rauli.a.makinen@tuni.fi",
-		logo: "../logo.png",
+		logo: "https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDI0LTA0L3RwNDk5LWF1LTAwMy1pY29uLTAxLmpwZw.jpg",
 	},
 
 	socials: {
@@ -16,32 +16,56 @@ const INFO = {
 	},
 
 	homepage: {
-		title: "Front-end ja mobiilikehittäjä, yliajattelija ja auttava käsi.",
+		title: "Moi, olen Rauli. Front-end kehittäjä, yliajattelija ja auttava käsi.",
 		description:
-			"Olen pian valmistuva alanvaihtaja Tampereelta. Opiskelen TAMK:issa verkostoissa oppimisen ja osaamisen tutkinto-ohjelmassa. Ratkon mielelläni ongelmia, rakastan oppimista ja pyrin alituiseen kehittymiseen. Jaan rohkeasti osaamistani, ja pyrin myös kehittämään ympäröivää yhteisöä. Hyvä ryhmähenki, yhteiset tavoitteet ja selkeä avoin kommunikaatio ovat menestyksen avaimia. En pelkää hypätä tuntemattomampaankaan tilanteeseen, sillä panostan aina tekemiseeni ja osaamiseeni tilanteen vaatiessa, ja kehityn vahvan reflektion avulla. Olen löytänyt intohimoni sovelluskehityksestä ja koodauksen parista, ja toivonkin että löydän inspiroivan yhteisön, joka tarjoaa minulle kehittäviä haasteita ja uusia pitkäaikaisia mahdollisuuksia.",
+			"Olen monipuolinen IT-tradenomiopiskelija ja entinen yrittäjä, joka yhdistää teknisen osaamisen dialogisiin taitoihin. Valmistun pian TAMK:in innovatiivisesta VETO-tutkinto-ohjelmasta, Suomen ensimmäisestä monialaisesta koulutusohjelmasta. Intohimoni sovelluskehityksessä yhdistyy vahvaan liiketoiminnan ymmärrykseen. Parhaimmillani olen kehityspaineen alla, jolloin analyyttinen reflektointitaitoni tukee tehokasta ongelmanratkaisua. Työskentelytapaani kuvaa avoimuus, yhteisöllisyys ja jatkuva kehittymisen halu. Uskon, että selkeä kommunikaatio ja yhteisiin tavoitteisiin sitoutuminen ovat menestyksen avaintekijöitä. Etsin nyt mahdollisuuksia, joissa voin hyödyntää teknistä osaamistani ja dialogisia taitojani kehittääkseni innovatiivisia digitaalisia ratkaisuja.",
 	},
 
 	about: {
     title: "Moi, olen Rauli. Asun Orivedellä, ja täältä käsin suunnittelen ja toteutan luovuuttani, mitä erikoisimmilla tavoilla.",
     description:
-        "Opiskelen kolmatta vuotta VETO-tutkinnossa, joka on suomen ensimmäinen monialainen tutkinto-ohjelma. Tähän tutkintoon minut veti mukaan uutuudenviehätys, ja mahdollisuus olla mukana kehittämässä jotain täysin uutta. Muuttuva työelämä kaipaa monialaisuutta ja vahvoja kommunikaatiokykyjä, joihin tutkinnossamme paneudutaan." 
+        "Opiskelen kolmatta vuotta VETO-tutkinnossa, Suomen ensimmäisessä monialaisessa tutkinto-ohjelmassa. Tähän tutkintoon minut veti mukaan uutuudenviehätys ja mahdollisuus olla mukana kehittämässä jotain täysin uutta. Muuttuva työelämä kaipaa monialaisuutta ja vahvoja kommunikaatiokykyjä, joihin tutkinnossamme paneudutaan. Opiskelen yhdessä medianomien, sosionomien ja liiketalouden tradenomien kanssa, itse valmistun IT-tradenomiksi. Tämä poikkitieteellinen kokoonpano on antanut minulle valtavasti oppia nykypäivänä tarvittavista taidoista markkinoinnin, sosiaalisen median, mediatuotannon sekä hyvinvoinnin näkökulmista. "
 	,
-	description1:" Opiskelen yhdessä medianomien, sosionomien ja liiketalouden tradenomien kanssa, itse valmistun it-tradenomiksi. Tämä poikkitieteellinen kokoonpano on antanut minulle valtavasti oppia nykypäivänä tarvittavista taidoista niin markkinoinnin, somen ja mediatuotannon kuin myös hyvinvoinnin näkökulmista. Opiskeluideni varrella olen huomannut reflektiokykyni vahvuuden, ja henkilökohtaisen kehittymisen haluni on kasvanut valtavasti. Tämän ohella pyrin jatkuvasti kehittämään ympäröivää yhteisöäni, ja kanssatyöskentelijöitäni, sekä pitämään yllä hyvää fiilistä ja motivaatiota."
+	skills1: [ 
+"Teamsin työkalujen ja automaatiokulkujen optimointi oppimisympäristöön sopivaksi",
+"Viestintäkäytäntöjen luominen",
+"Tiimirakenteen uudelleenorganisointi eri vuosiluokille soveltuvaksi",
+"Clockify-ajanhallintapalvelun käyttöönotto ja mukauttaminen tutkinto-ohjelman tarpeisiin",
+"Kattavien työohjeiden laatiminen opiskelijoille ja henkilöstölle",
+
+"Nämä kehitystoimet ovat merkittävästi tehostaneet tutkinto-ohjelman sisäistä viestintää ja yhteistyötä.", ],
+	description1:"Olen ollut merkittävässä roolissa VETO-tutkinto-ohjelman sisäisen viestinnän ja toimintamallien kehittämisessä. Vastuualueisiini kuului:"
 	,
-	description2: "Tässä hieman tietoa yleisistä osaamisestani:"
+	description2: "Ohjelmointitaidoissani painottuu web-kehitys:"
 ,
     skills: [
-        "Ohjelmointi ( JavaScript, Python, React, SQL )",
-		"Web-tekniikat, HTML , CSS",
-		"MS Tools",
-        "Projektinhallinta ja ketterät menetelmät",
-        "UX/UI-suunnittelu ja käyttäjäkeskeinen ajattelu",
+    "Frontend: JavaScript, React, HTML, CSS",
+    "Backend: Node.js, Express",
+    "Python: Olio-ohjelmointi, modulaariset sovellukset, tiedostojen välinen kommunikointi",
+    "Tietokannat: MongoDB, SQL",
+    "Mobiilisovellukset: React Native (opiskeluvaiheessa), Expo, Android Studio (perusteet)",
+    "Työkalut: Git, GitHub, VS Code, Figma",
+    "Versiohallinta: Git, GitHub",
+    "Yhteisön kehittäminen ja verkostotyö",
+    "Tapahtumasuunnittelu ja viestintä",
+    "Objektiivinen, kehittävä ajattelu",
+    "Vahvat dialogi- ja tiimityötaidot"
+],
+	description3: "Muu osaaminen ja työskentelytavat:"
+,
+    skills2: [
+        "Projektinhallinta, tiimityö",
+		"UX/UI-suunnittelu ja käyttäjäkeskeinen ajattelu",
+		"Microsoft 365 -työkalut ja niiden tehokas hyödyntäminen",
         "Verkostotyö ja yhteisön kehittäminen",
-        "Versiohallinta (Git, GitHub)",
         "Tapahtumasuunnittelu ja viestintä",
-		"Objektiivinen kehittävä ajattelu",
+        "Verkostotyö ja yhteisön kehittäminen",
+        "Objektiivinen kehittävä ajattelu",
+        "Tapahtumasuunnittelu ja viestintä",
 		"Vahvat dialogi- ja tiimityötaidot",
+		"Opiskeluideni varrella olen huomannut reflektiokykyni olevan erityinen vahvuuteni. Henkilökohtaisen kehittymisen haluni on kasvanut valtavasti, ja pyrin jatkuvasti kehittämään myös ympäröivää yhteisöäni ja kanssatyöskentelijöitäni. Tavoitteenani on ylläpitää positiivista työilmapiiriä ja motivaatiota kaikissa projekteissa.",
     ]
+
 },
 
 	articles: {
@@ -51,6 +75,14 @@ const INFO = {
 	},
 
 	projects: [
+		{
+			title: "Tamko - verkkosivujen uudistus",
+			description:
+				"Keväällä 2025 uudistamme opiskelijakunta Tamkon nettisivut. Projektipäällikön roolissa valvon sivujen yleissuunnittelua ja kehitystä, saavutettavuustandardien toteutumista, käytettävyyttä sekä koodaan tarvittavat erikoislohkot, sekä rajapintakyselyt.",
+			logo: "https://tamko.fi/wp-content/uploads/2020/05/Tamko-logo.svg",
+			linkText: "Tamko",
+			link: "https://www.dreamloop.net/",
+		},
 		{
 			title: "Dreamloop",
 			description:
@@ -81,14 +113,14 @@ const INFO = {
 		{
 			title: "Project Expo",
 			description:
-				"Verkostoitumistapahtuma jossa toimin projektipäällikkönä.  Tehtävänä oli opiskelijoiden sitouttaminen maakuntien toimeksiantajiin. Tapahtuma poiki n. 10 projektitiimiä, palautteet toimeksiantajilta hyvät. Oppia tapahtumajärjestämisestä, myynnistä, projektikonseptin luomisesta. ",
-			logo: "https://www.reynolds-pens.com/wp-content/uploads/2021/07/Logo-Expo.png",
+				"Verkostoitumistapahtuma jossa toimin projektipäällikkönä. Tehtävänä oli opiskelijoiden sitouttaminen maakuntien toimeksiantajiin. Tapahtuma poiki n. 10 projektitiimiä, palautteet toimeksiantajilta hyvät. Oppia tapahtumajärjestämisestä, myynnistä, projektikonseptin luomisesta. ",
+			logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4-Nl1X8auD5CVymthTAxmi5gmQKrRZ_WpjA&s",
 			linkText: "Blogipostaus projektista",
 			link: "https://vetoblogi.webnode.page/l/virtain-kaupunki/",
 		},
 
 		{
-			title: "Kehityskokemus",
+			title: "Kehittävä työote",
 			description:
 				"Olen osallistunut useassa käänteessä tutkinnon kehitystoimiin kuten: Projektipäivien konseptointi ja kehittäminen järjestelmälliseksi tapahtumaksi, Läpinäkyvyyden lisääminen opiskelijoiden tuotoksissa, tutkinnon markkinointi ja esittely tapahtumissa sekä vieraspuhujien järjestäminen",
 			logo: "https://cdn-icons-png.flaticon.com/512/4277/4277182.png",
@@ -96,10 +128,10 @@ const INFO = {
 			link: "",
 		},
 		{
-			title: "Myyjän Kehitysohjelma",
+			title: "Myyjä - Soldem",
 			description:
-				"Osallistuin Soldem Oy:llä myyjien kehitysohjelmaan, jossa rakennettiin myyntifilosofiaa, ja perehdyttiin myynnillisen asiakaspalvelun toimivuuteen, sekä sosiaalisen osaamisen jakamiseen. Ohjelman myötä sparrasin uusia myyjiä ja toimin mentorina.",
-			logo: "https://cdn-icons-png.flaticon.com/512/4277/4277182.png",
+				"Toimin myynnillisen asiakaspalvelun tehtävissä vuosina 2018 - 2020. Osallistuin Soldemilla myyjien kehitysohjelmaan, jossa rakennettiin myyntifilosofiaa, ja perehdyttiin myynnillisen asiakaspalvelun toimivuuteen, sekä sosiaalisen osaamisen jakamiseen. Ohjelman myötä sparrasin uusia myyjiä ja toimin mentorina.",
+			logo: "https://soldem.fi/wp-content/uploads/soldem_logo-e1520925536743.png",
 			linkText: "",
 			link: "",
 		},
@@ -107,7 +139,15 @@ const INFO = {
 			title: "Ravintolasivun sisällöntuotanto",
 			description:
 				"Yhteistyössä varsinaisen suunnittelijan kanssa, tuotin Sisu Buffet ravintolan sisällön ( Kuvat, tekstit, blogit, videot) sekä suunnittelin ulkoasun, viestinnän sävyn ja ydinviestin.",
-			logo: "https://cdn-icons-png.flaticon.com/512/4277/4277182.png",
+			logo: "https://tamperesaints.fi/wp-content/uploads/2018/07/sisubuffet-1.png",
+			linkText: "",
+			link: "",
+		},
+		{
+			title: "Yrittäjyys",
+			description:
+				"Vuodet 2013-2017 vierähtivät lounasarvintolan perustamisen myötä sen pyörittämisessä. Tänä aikana opin monipuolisesti erilaisten tehtävien merkityksen organisaation kokonaisuudessa, paineensietokyvn ja avarakatseisuuden.",
+			logo: "https://tamperesaints.fi/wp-content/uploads/2018/07/sisubuffet-1.png",
 			linkText: "",
 			link: "",
 		},
