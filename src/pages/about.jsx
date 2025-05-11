@@ -5,6 +5,7 @@ import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
 import Socials from "../components/about/socials";
+import SkillsVisualizer from "../components/SkillsVisualizer"; // Uusi tuonti
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
@@ -40,39 +41,20 @@ const About = () => {
 
 					<div className="about-container">
 						<div className="about-main">
-    <div className="about-right-side">
-        <div className="title about-title">
-            {INFO.about.title}
-        </div>
+                            <div className="about-right-side">
+                                <div className="title about-title">
+                                    {INFO.about.title}
+                                </div>
 
-        <div className="subtitle about-subtitle">
-            {INFO.about.description}
-			<br/>
-			
-			{INFO.about.description1}
-			  <ul>
-                {INFO.about.skills1.map((skill, index) => (
-                    <li key={index}>{skill}</li>
-                ))}
-            </ul>
-			<br/>
-			
-			 {INFO.about.description2}
-            <ul>
-                {INFO.about.skills.map((skill, index) => (
-                    <li key={index}>{skill}</li>
-                ))}
-            </ul>
-			
-			<br/>
-			 {INFO.about.description3}
-            <ul>
-                {INFO.about.skills2.map((skill, index) => (
-                    <li key={index}>{skill}</li>
-                ))}
-            </ul>
-        </div>
-    </div>
+                                <div className="subtitle about-subtitle">
+                                    {INFO.about.description}
+                                </div>
+                                
+                                {/* Tässä uusi SkillsVisualizer-komponentti */}
+                                <div className="about-skills-visualizer">
+                                    <SkillsVisualizer />
+                                </div>
+                            </div>
 
 							<div className="about-left-side">
 								<div className="about-image-container">

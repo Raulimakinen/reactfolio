@@ -1,0 +1,354 @@
+/* src/components/SkillsVisualizer.css */
+/* Modernimpi versio alkuperäisestä CSS-tiedostosta */
+
+.skills-visualizer-root {
+    background-color: white;
+    padding: 2.5rem;
+    border-radius: 1rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08), 0 15px 12px rgba(0, 0, 0, 0.02);
+    margin: 2rem 0;
+    max-width: 100%;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+
+/* Tabs-osio */
+.skills-tabs {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 3rem;
+    position: relative;
+}
+
+.tab-button {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.3s ease;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.tab-button:not(.active) {
+    opacity: 0.65;
+}
+
+.tab-button:not(.active):hover {
+    opacity: 0.85;
+}
+
+.tab-icon {
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    position: relative;
+    overflow: hidden;
+}
+
+.tab-icon:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.25), transparent 50%);
+    z-index: 0;
+}
+
+.tab-icon-emoji {
+    font-size: 1.8rem;
+    position: relative;
+    z-index: 1;
+}
+
+.tab-button:hover .tab-icon {
+    transform: scale(1.05) translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.tab-button.active .tab-icon {
+    transform: scale(1.15) translateY(-7px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.18);
+}
+
+.tab-button.active .tab-underline {
+    position: absolute;
+    bottom: -0.5rem;
+    width: 2.5rem;
+    height: 0.25rem;
+    border-radius: 9999px;
+    transition: all 0.3s ease;
+}
+
+.tab-text {
+    margin-top: 1rem;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;
+}
+
+.tab-button.active .tab-text {
+    font-weight: 600;
+    transform: translateY(-2px);
+}
+
+/* Content-osio */
+.skills-content {
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    position: relative;
+}
+
+.animate-in {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.animate-out {
+    opacity: 0;
+    transform: translateY(15px);
+}
+
+.content-header {
+    margin-bottom: 2rem;
+}
+
+.content-title {
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+    position: relative;
+    display: inline-block;
+}
+
+.content-title:after {
+    content: '';
+    position: absolute;
+    bottom: -0.5rem;
+    left: 0;
+    width: 3rem;
+    height: 0.15rem;
+    border-radius: 1rem;
+    opacity: 0.7;
+}
+
+.tech-color:after {
+    background-color: #60A5FA;
+}
+
+.organization-color:after {
+    background-color: #2DD4BF;
+}
+
+.soft-color:after {
+    background-color: #C084FC;
+}
+
+.content-description {
+    color: #4B5563;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    max-width: 90%;
+}
+
+.skills-items {
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+}
+
+.skill-item {
+    display: flex;
+    align-items: flex-start;
+    padding: 1rem 1.2rem;
+    border-radius: 0.6rem;
+    background-color: #F9FAFB;
+    transition: all 0.3s ease;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    transform: translateY(10px);
+    opacity: 0;
+    transition: all 0.35s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.skill-item:hover {
+    background-color: #F3F4F6;
+    transform: translateY(-2px) !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.skill-dot {
+    min-width: 0.6rem;
+    height: 0.6rem;
+    border-radius: 50%;
+    margin-top: 0.5rem;
+    margin-right: 1rem;
+    position: relative;
+}
+
+.skill-dot:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.2;
+    transition: all 0.3s ease;
+}
+
+.tech-dot:after {
+    background-color: #60A5FA;
+}
+
+.organization-dot:after {
+    background-color: #2DD4BF;
+}
+
+.soft-dot:after {
+    background-color: #C084FC;
+}
+
+.skill-item:hover .skill-dot:after {
+    opacity: 0.4;
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+.skill-text {
+    color: #374151;
+    font-size: 1.05rem;
+    line-height: 1.6;
+}
+
+.content-footer {
+    margin-top: 2rem;
+    font-style: italic;
+    color: #4B5563;
+    border-left-width: 4px;
+    padding: 0.75rem 1.25rem;
+    border-radius: 0 0.5rem 0.5rem 0;
+    background-color: rgba(249, 250, 251, 0.7);
+    line-height: 1.6;
+    font-size: 1rem;
+    transition: all 0.5s ease;
+}
+
+/* Kategoria-värit */
+.tech-bg {
+    background: linear-gradient(135deg, #60A5FA, #3B82F6);
+}
+
+.tech-color {
+    color: #2563EB;
+}
+
+.tech-dot {
+    background-color: #60A5FA;
+}
+
+.tech-border {
+    border-left-color: #60A5FA;
+}
+
+.organization-bg {
+    background: linear-gradient(135deg, #2DD4BF, #0D9488);
+}
+
+.organization-color {
+    color: #0D9488;
+}
+
+.organization-dot {
+    background-color: #2DD4BF;
+}
+
+.organization-border {
+    border-left-color: #2DD4BF;
+}
+
+.soft-bg {
+    background: linear-gradient(135deg, #C084FC, #9333EA);
+}
+
+.soft-color {
+    color: #9333EA;
+}
+
+.soft-dot {
+    background-color: #C084FC;
+}
+
+.soft-border {
+    border-left-color: #C084FC;
+}
+
+/* Responsiivisuus */
+@media (max-width: 768px) {
+    .skills-visualizer-root {
+        padding: 1.5rem;
+    }
+
+    .skills-tabs {
+        gap: 1rem;
+    }
+
+    .tab-icon {
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+
+    .tab-icon-emoji {
+        font-size: 1.5rem;
+    }
+
+    .tab-text {
+        font-size: 0.9rem;
+    }
+
+    .content-title {
+        font-size: 1.5rem;
+    }
+
+    .content-description {
+        font-size: 1rem;
+        max-width: 100%;
+    }
+
+    .skill-text {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .skills-tabs {
+        gap: 0.75rem;
+    }
+
+    .tab-icon {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .tab-icon-emoji {
+        font-size: 1.3rem;
+    }
+
+    .tab-text {
+        font-size: 0.8rem;
+    }
+
+    .skill-item {
+        padding: 0.75rem 1rem;
+    }
+}
