@@ -3,7 +3,7 @@ const INFO = {
 		title: "Portfolio Rauli Mäkinen",
 		name: "Rauli Mäkinen",
 		email: "rauli.a.makinen@tuni.fi",
-		logo: "https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDI0LTA0L3RwNDk5LWF1LTAwMy1pY29uLTAxLmpwZw.jpg",
+		logo: "https://www.freepnglogos.com/uploads/logo-home-png/home-round-icon-transparent-vector-7.png",
 	},
 
 	socials: {
@@ -39,9 +39,9 @@ const INFO = {
 	description2: "Ohjelmointitaidoissani painottuu web-kehitys:"
 ,
     skills: [
-    "Frontend: JavaScript, React, HTML, CSS",
-    "Backend: Node.js, Express",
-    "Python: Olio-ohjelmointi, modulaariset sovellukset, tiedostojen välinen kommunikointi",
+    "Frontend: JavaScript, React, HTML, CSS, Olio-ohjelmointi, modulaariset sovellukset, tiedostojen välinen kommunikointi",
+    "Backend: Node.js, Express, Python",
+    "",
     "Tietokannat: MongoDB, SQL",
     "Mobiilisovellukset: React Native (opiskeluvaiheessa), Expo, Android Studio (perusteet)",
     "Työkalut: Git, GitHub, VS Code, Figma",
@@ -84,9 +84,17 @@ const INFO = {
 			link: "https://www.dreamloop.net/",
 		},
 		{
-			title: "Dreamloop",
+			title: "Vaikuttajan työote",
 			description:
-				"Loimme Pythonilla usean fromaatin konversio-ohjelma, jota käytetään graafisen käyttöliittymän kautta. Projektin aikana opin ohjelmistoarkkitehtuurista, projektisuunnittelusta, GIT-versiohallinnasta ja IT-projektin aikataulutuksesta sekä asiakastyöstä. Tärkeimpiä käytännön oppeja esim. luokkapohjainen ohjelmointi, muutoskyvykkyys vaihtaessa roolia.",
+				"Olen osallistunut useassa käänteessä tutkinnon kehitystoimiin kuten: Projektipäivien konseptointi ja kehittäminen järjestelmälliseksi tapahtumaksi, Läpinäkyvyyden lisääminen opiskelijoiden toiminnassa, tutkinnon markkinointi sekä viestintä ulospäin. Olen osallistunut kahden dialogisuuden työpajan järjestämiseen, Musta Ry:lle sekä TAMK:in insinööriopiskelijoille.",
+			logo: "https://cdn-icons-png.flaticon.com/512/4277/4277182.png",
+			linkText: "",
+			link: "",
+		},
+		{
+			title: "Achievement converter",
+			description:
+				"Loimme Pythonilla usean fromaatin konversio-ohjelman Dreamloop gamesille. Sovellusta käytetään graafisen käyttöliittymän kautta. Projektin aikana opin ohjelmistoarkkitehtuurista, projektisuunnittelusta, GIT-versiohallinnasta ja IT-projektin aikataulutuksesta sekä asiakastyöstä. Tärkeimpiä käytännön oppeja esim. luokkapohjainen ohjelmointi, muutoskyvykkyys vaihtaessa roolia.",
 			logo: "https://www.gematsu.com/wp-content/uploads/2022/04/Company-Logo_Dreamloop-Games-Inits.png",
 			linkText: "Dreamloop",
 			link: "https://www.dreamloop.net/",
@@ -119,14 +127,7 @@ const INFO = {
 			link: "https://vetoblogi.webnode.page/l/virtain-kaupunki/",
 		},
 
-		{
-			title: "Kehittävä työote",
-			description:
-				"Olen osallistunut useassa käänteessä tutkinnon kehitystoimiin kuten: Projektipäivien konseptointi ja kehittäminen järjestelmälliseksi tapahtumaksi, Läpinäkyvyyden lisääminen opiskelijoiden tuotoksissa, tutkinnon markkinointi ja esittely tapahtumissa sekä vieraspuhujien järjestäminen",
-			logo: "https://cdn-icons-png.flaticon.com/512/4277/4277182.png",
-			linkText: "",
-			link: "",
-		},
+		
 		{
 			title: "Myyjä - Soldem",
 			description:
